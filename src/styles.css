@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+}
+li {
+  list-style-type: none;
+}
+a {
+  font-weight: bold;
+  font-size: 20px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(134, 135, 201);
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(234, 250, 250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: rgb(134, 135, 201);
+}
+.left {
+  width: 40%;
+  height: 100vh;
+  background-color: rgb(234, 250, 250);
+  overflow: scroll;
+}
+.left a {
+  color: black;
+  font-weight: unset;
+  font-size: 16px;
+  text-decoration: none;
+}
+.list {
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  background-color: rgb(234, 250, 250);
+}
+.right {
+  width: 60%;
+  height: 100vh;
+  background-color: rgb(234, 250, 250);
+  overflow: scroll;
+  padding: 25px;
+  text-align: center;
+}
+p,
+i,
+h2,
+h3 {
+  padding: 6px;
+}
+.right a {
+  color: black;
+  font-weight: unset;
+  font-size: 16px;
+  text-decoration: none;
+}
+hr {
+  margin: 20px 0;
+}
+.userInfoNext {
+  display: flex;
+  justify-content: space-around;
+}
+.listTodos {
+  display: flex;
+  justify-content: space-between;
+}

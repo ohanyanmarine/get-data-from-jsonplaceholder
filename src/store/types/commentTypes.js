@@ -1,0 +1,5 @@
+const SET_COMMENTS = "@commentTypes/SET_COMMENTS";
+const SELECT_COMMENT = "@commentTypes/SELECT_COMMENT";
+const FILTERED_COMMENTS = "@commentTypes/FILTERED_COMMENTS";
+
+export default { SET_COMMENTS, SELECT_COMMENT, FILTERED_COMMENTS };
